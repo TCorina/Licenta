@@ -9,15 +9,21 @@
 <body>
     <header>
         <div class="logo">Auto Manager</div>
-        <button class="language-btn" id="languageBtn">🌍 Language</button>
+        <div class="language-selector">
+            <select id="languageSelect">
+                <option value="en">🇬🇧 English</option>
+                <option value="ro">🇷🇴 Română</option>
+                <option value="fr">🇫🇷 Français</option>
+            </select>
+        </div>
     </header>
     
     <main>
-        <h1>WELCOME TO YOUR AUTO MANAGER</h1>
-        <h2>Stay on Track with Your Car - All Your Auto Docs, One Place!</h2>
+        <h1 id="mainTitle">WELCOME TO YOUR AUTO MANAGER</h1>
+        <h2 id="subTitle">Stay on Track with Your Car - All Your Auto Docs, One Place!</h2>
         <div class="buttons">
-            <button onclick="location.href='signup.html'">Sign In</button>
-            <button onclick="location.href='login.html'">Log In</button>
+            <button id="signInBtn" onclick="location.href='signup.html'">Sign In</button>
+            <button id="logInBtn" onclick="location.href='login.html'">Log In</button>
         </div>
     </main>
 

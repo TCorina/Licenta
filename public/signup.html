@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In - Auto Manager</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">Auto Manager</div>
-        <button class="language-btn" id="languageBtn">🌍 Language</button>
+        <div class="language-selector">
+            <select id="languageSelect">
+                <option value="en">🇬🇧 English</option>
+                <option value="ro">🇷🇴 Română</option>
+                <option value="fr">🇫🇷 Français</option>
+            </select>
+        </div>
     </header>
 
     <main>
-        <h1>Create Your Account</h1>
-        <form id="signupForm">
-            <input type="text" placeholder="Nume" required>
-            <input type="text" placeholder="Prenume" required>
-            <input type="email" placeholder="Email" required>
-            <input type="tel" placeholder="Telefon" required>
-            <input type="password" placeholder="Parola" required>
-            <button type="submit">Sign In</button>
+        <h1 id="signInTitle">Sign In</h1>
+        <form id="signInForm">
+            <input type="text" id="name" placeholder="First Name">
+            <input type="text" id="surname" placeholder="Last Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="tel" id="phone" placeholder="Phone">
+            <input type="password" id="password" placeholder="Password">
+            <button id="signUpBtn">Sign Up</button>
         </form>
     </main>
 
     <script src="script.js"></script>
 </body>
-</html>
+</html>  

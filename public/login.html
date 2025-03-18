@@ -3,21 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In - Auto Manager</title>
+    <title>Log In</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">Auto Manager</div>
-        <button class="language-btn" id="languageBtn">🌍 Language</button>
+        <div class="language-selector">
+            <select id="languageSelect">
+                <option value="en">🇬🇧 English</option>
+                <option value="ro">🇷🇴 Română</option>
+                <option value="fr">🇫🇷 Français</option>
+            </select>
+        </div>
     </header>
 
     <main>
-        <h1>Log In to Your Account</h1>
-        <form id="loginForm">
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Parola" required>
-            <button type="submit">Log In</button>
+        <h1 id="logInTitle">Log In</h1>
+        <form id="logInForm">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <button id="logInBtn">Log In</button>
         </form>
     </main>
 
