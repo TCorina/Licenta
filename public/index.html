@@ -1,32 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Manager</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Auto Manager</div>
-        <div class="language-selector">
-            <select id="languageSelect">
-                <option value="en">🇬🇧 English</option>
-                <option value="ro">🇷🇴 Română</option>
-                <option value="fr">🇫🇷 Français</option>
-            </select>
-        </div>
-    </header>
-    
-    <main>
-        <h1 id="mainTitle">WELCOME TO YOUR AUTO MANAGER</h1>
-        <h2 id="subTitle">Stay on Track with Your Car - All Your Auto Docs, One Place!</h2>
-        <div class="buttons">
-            <button id="signInBtn" onclick="location.href='signup.html'">Sign In</button>
-            <button id="logInBtn" onclick="location.href='login.html'">Log In</button>
-        </div>
-    </main>
-
-    <script src="script.js"></script>
+<header>
+    <a href="index.html">🚗 Auto Manager</a>
+    <select id="languageSelect">
+        <option value="en">🇬🇧 English</option>
+        <option value="ro">🇷🇴 Română</option>
+        <option value="fr">🇫🇷 Français</option>
+    </select>
+</header>
+<main>
+    <h1 data-translate="title">WELCOME TO YOUR AUTO MANAGER</h1>
+    <h2 data-translate="subtitle">Stay on Track with Your Car - All Your Auto Docs, One Place!</h2>
+    <button onclick="location.href='signup.html'" data-translate="signupBtn">Sign Up</button>
+    <button onclick="location.href='login.html'" data-translate="loginBtn">Log In</button>
+</main>
+<script src="script.js"></script>
 </body>
 </html>

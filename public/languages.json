@@ -1,0 +1,50 @@
+{
+    "en": {
+        "title": "WELCOME TO YOUR AUTO MANAGER",
+        "subtitle": "Stay on Track with Your Car - All Your Auto Docs, One Place!",
+        "signupTitle": "Sign Up",
+        "loginTitle": "Log In",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "phone": "Phone",
+        "username": "Username",
+        "password": "Password",
+        "signupBtn": "Sign Up",
+        "loginBtn": "Log In",
+        "alreadyAccount": "Already have an account?",
+        "noAccount": "Don't have an account?"
+    },
+    "ro": {
+        "title": "BUN VENIT LA AUTO MANAGER",
+        "subtitle": "Ține evidența mașinii tale - Toate documentele într-un singur loc!",
+        "signupTitle": "Înregistrare",
+        "loginTitle": "Autentificare",
+        "firstName": "Prenume",
+        "lastName": "Nume",
+        "email": "Email",
+        "phone": "Telefon",
+        "username": "Nume utilizator",
+        "password": "Parolă",
+        "signupBtn": "Înregistrează-te",
+        "loginBtn": "Autentificare",
+        "alreadyAccount": "Ai deja un cont?",
+        "noAccount": "Nu ai cont?"
+    },
+    "fr": {
+        "title": "BIENVENUE DANS VOTRE AUTO MANAGER",
+        "subtitle": "Gardez une trace de votre voiture - Tous vos documents en un seul endroit!",
+        "signupTitle": "Inscription",
+        "loginTitle": "Connexion",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "email": "Email",
+        "phone": "Téléphone",
+        "username": "Nom d'utilisateur",
+        "password": "Mot de passe",
+        "signupBtn": "S'inscrire",
+        "loginBtn": "Connexion",
+        "alreadyAccount": "Vous avez déjà un compte?",
+        "noAccount": "Vous n'avez pas de compte?"
+    }
+}

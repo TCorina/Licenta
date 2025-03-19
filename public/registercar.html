@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register Car | Auto Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="index.html">🚗 Auto Manager</a>
+</header>
+<main>
+    <h1 data-translate="registerCarTitle">Register Your Car</h1>
+    <form id="carForm">
+        <input id="carModel" data-translate="carModel" placeholder="Car Model" required>
+        <input id="plateNumber" data-translate="plateNumber" placeholder="Plate Number" required>
+        <select id="serviceType">
+            <option value="insurance" data-translate="insurance">Insurance</option>
+            <option value="itp" data-translate="itp">ITP</option>
+            <option value="oilChange" data-translate="oilChange">Oil Change</option>
+            <option value="other" data-translate="other">Other</option>
+        </select>
+        <input type="date" id="serviceDate" required>
+        <button type="submit" data-translate="submitCar">Save Car</button>
+    </form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
